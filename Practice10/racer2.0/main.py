@@ -13,14 +13,14 @@ font = pygame.font.SysFont("Verdana", 20)
 def load(file, size):
     return pygame.transform.scale(pygame.image.load(file).convert_alpha(), size)
 
-bg        = pygame.transform.scale(pygame.image.load("/Users/arukaabdikarim/Desktop/python-basics-git/Practice10/racer2.0/AnimatedStreet.png"), (W, H))
-go_bg     = pygame.transform.scale(pygame.image.load("/Users/arukaabdikarim/Desktop/python-basics-git/Practice10/racer2.0/game_over_bg.png"), (W, H))
-coin_snd  = pygame.mixer.Sound("/Users/arukaabdikarim/Desktop/python-basics-git/Practice10/racer2.0/coin_sound.mp3")
+bg = pygame.transform.scale(pygame.image.load("/Users/arukaabdikarim/Desktop/python-basics-git/Practice10/racer2.0/AnimatedStreet.png"), (W, H))
+go_bg = pygame.transform.scale(pygame.image.load("/Users/arukaabdikarim/Desktop/python-basics-git/Practice10/racer2.0/game_over_bg.png"), (W, H))
+coin_snd = pygame.mixer.Sound("/Users/arukaabdikarim/Desktop/python-basics-git/Practice10/racer2.0/coin_sound.mp3")
 crash_snd = pygame.mixer.Sound("/Users/arukaabdikarim/Desktop/python-basics-git/Practice10/racer2.0/crash.mp3")
 
-player_img   = load("/Users/arukaabdikarim/Desktop/python-basics-git/Practice10/racer2.0/Player.png", (90, 100))
-enemy_img    = load("/Users/arukaabdikarim/Desktop/python-basics-git/Practice10/racer2.0/Enemy.png",  (90, 100))
-coin_frames  = [load(f"/Users/arukaabdikarim/Desktop/python-basics-git/Practice10/racer2.0/coin{i}.png", (40, 40)) for i in range(1, 5)]
+player_img = load("/Users/arukaabdikarim/Desktop/python-basics-git/Practice10/racer2.0/Player.png", (90, 100))
+enemy_img = load("/Users/arukaabdikarim/Desktop/python-basics-git/Practice10/racer2.0/Enemy.png",  (90, 100))
+coin_frames = [load(f"/Users/arukaabdikarim/Desktop/python-basics-git/Practice10/racer2.0/coin{i}.png", (40, 40)) for i in range(1, 5)]
 
 LANES = [50, 150, 250, 350]
 
