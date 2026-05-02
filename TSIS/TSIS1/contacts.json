@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Sultan",
+        "email": "sula@gmail.com",
+        "birthday": "2015-12-11",
+        "group": "Other",
+        "phones": [
+            {
+                "number": "7754569838",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "Asylkhan",
+        "email": "asik@gmail.com",
+        "birthday": "2020-08-27",
+        "group": "Family",
+        "phones": [
+            {
+                "number": "7075416759",
+                "type": "home"
+            }
+        ]
+    },
+    {
+        "name": "Ulan",
+        "email": "ula@gmail.com",
+        "birthday": "2004-01-10",
+        "group": "Other",
+        "phones": [
+            {
+                "number": "7759047571",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "Aruzhan",
+        "email": "aruka@gmail.com",
+        "birthday": "2007-11-20",
+        "group": "Family",
+        "phones": [
+            {
+                "number": "7757628285",
+                "type": "home"
+            }
+        ]
+    }
+]
